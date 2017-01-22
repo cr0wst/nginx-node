@@ -1,6 +1,9 @@
 # nginx-node
 [![Build Status](https://travis-ci.org/cr0wst/nginx-node.svg?branch=master)](https://travis-ci.org/cr0wst/nginx-node)
-  
+[![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![npm version](https://badge.fury.io/js/nginx-node.svg)](https://badge.fury.io/js/nginx-node)
+
+
 Node module for working with nginx as a proxy server.  Assists in writing conf.d configuration files (requires permissions to the conf.d directory).  Ability to restart nginx through sudo (requires password-less sudo permissions to /etc/init.d/nginx).
 
 # General Idea
