@@ -1,3 +1,9 @@
 language: node_js
 node_js:
   - "node"
+deploy:
+  provider: npm
+  email: "steve@smcrow.net"
+  api_key: $NPM_API_KEY
+  on:
+    tags: true
