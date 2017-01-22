@@ -1,6 +1,6 @@
 {
-  "name": "node-nginx",
-  "version": "1.0.0",
+  "name": "nginx-node",
+  "version": "0.0.1",
   "description": "A node module for working with nginx conf.d files.",
   "main": "index.js",
   "scripts": {
