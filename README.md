@@ -16,7 +16,7 @@ Allows for working with the server process.  It facilitates starting, stopping, 
 
 The following must be done as root, replacing __nodeUsername__ with the user that will be running the node process:
 ```sh
-cd /etc/init.d/
+cd /etc/sudoers.d/
 touch nodesudoaccess
 echo "nodeUsername ALL=/etc/init.d/nginx" >> nodesudoaccess
 echo "nodeUsername ALL=NOPASSWD: /etc/init.d/nginx" >> nodesudoaccess
